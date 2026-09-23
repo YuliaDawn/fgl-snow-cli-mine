@@ -2,7 +2,7 @@
 USE WAREHOUSE {{wh_name}};
 USE DATABASE {{db_name}};
 USE SCHEMA {{schema_name}};
-CREATE FILE FORMAT IF NOT EXIXTS csv_ff
+CREATE FILE FORMAT IF NOT EXISTS csv_ff
     skip_header =1;
 
 -- referesh repository content
